@@ -15,3 +15,6 @@ vignettes/*.pdf
 
 # ignore the rawdata directory. It will be created and downloaded again
 rawdata/*
+
+# ignore the HTML output of the README.md parsing
+README.html
