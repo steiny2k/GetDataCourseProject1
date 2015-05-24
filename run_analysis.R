@@ -85,6 +85,11 @@ my.summary <- my.data %>%
 library(reshape2)
 my.summary.slim <- melt(my.summary, id.vars = c("subject", "activity"))
 
+# create the output directory
+if (!file.exists("output")) {
+    dir.create("output")
+}
+
 # save it for submission
 write.table(my.summary, "output/5.txt", row.names = FALSE)
 write.table(my.summary.slim, "output/5.slim.txt", row.names = FALSE)
