@@ -19,6 +19,9 @@ dataset. As the assinment required to focus the analysis only on the mean and
 standard deviation of the features captured, there are only 66 variables 
 remaining from the original dataset.
 
+For further information on the variables please refer to the orginal codebook
+documented in http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
 ## Code Book of 5.slim.txt
 
 Reshaped means, that it contains only 4 variables:
@@ -31,3 +34,6 @@ deviation of the features captured, there are only 66 variable values.
 4. **Value:** The variable is summarized by applying the mean by activity and 
 subject. Due to that, for every combination of subject, activity and variable,
 there exists only one value.
+
+For further information on the variables please refer to the orginal codebook
+documented in http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
