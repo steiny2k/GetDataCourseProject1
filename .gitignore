@@ -11,3 +11,7 @@
 # produced vignettes
 vignettes/*.html
 vignettes/*.pdf
+.Rproj.user
+
+# ignore the rawdata directory. It will be created and downloaded again
+rawdata/*
